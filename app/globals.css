@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+.prose {
+  max-width: 65ch;
+}
